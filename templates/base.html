@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="./static/style.css" type="text/css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Diagnosis</title>
+</head>
+<body style="padding-top:4%;">
+    <div id="Logo">
+        <h2 style="display:inline; color: white; background-color: #1538c4;">Medical </h2>
+        <h2 style="display: inline; ">Diagnosis </h2>
+
+    </div> 
+
+<img  id="Main_container"src="{{ url_for('static', filename='images/B2.jpg') }}" />
+
+<div id="Floating_textPanal">
+</div>
+<div id="Floating_text" style="width:50%;">
+
+
+<h1 style="font-size: 80px; color: white;">Welcome to</h1>
+<h1 style="font-size: 70px;">Medical Diagnosis</h1>
+<br>
+<h4 style="color: white;">As a national leader in digital imaging services, we combine advanced digital imaging and State-of-the-art technology to provide you with accurate results in critical moments.</h4>
+
+</div>
+
+<div id="top_nav_cont">
+     <ul id="top_nav">
+        <li >Home</li>
+        <li style="margin-left: 10px;">Contect Us</li> 
+    
+    </ul> 
+</div>
+
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support"> 
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is Doctora. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/bottomlogo.jpg') }}"  style="width:38px; height: 38px;"/></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+
+     <script src="./static/app.js">    
+    </script>
+
+ <footer style="width: 100%; height:100px; display: block; padding-top:5px;">
+    <h4>About Us </h4>
+    <br>
+    <p>
+        Founded in 1998, our corporate office is located in Skokie, Illinois – we have offices in many states in the U.S. such as Indiana, Michigan, Wisconsin, Ohio, New York, Georgia, Kentucky, Tennessee and Florida. Medical Diagnostics Services, Inc. services over 400 long term care facilities, short term rehabilitation facilities, assisted/independent living facilities, group homes and home health care agencies. We also service private physician practices, physician groups, correctional facilities, VA and hospice patients.
+   </p>
+   <div id="Copy_right">
+      <h4> © Copyrights 2023. Medical Diagnostic Services Inc All Rights Reserved</h4>
+   </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,195 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Good morning!",
+          "Good eveing",
+          "hey there!",
+          "good after noon"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },  
+
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard , Paypal & You can pay with cash also.",
+          "We accept most major credit cards, Paypal, Cash"
+        ]
+      },    
+
+      {
+        "tag": "BotName",
+        "patterns": [
+          "Who are you!",
+          "Your name?",
+          "what is your name?",
+          "Who are you",
+          "you?"
+        ],
+        "responses": [
+          "My Name is Medica..! i am here to assist you!",
+          " I am Medica..."
+        ]
+      },
+
+      {
+        "tag": "services",
+        "patterns": [
+          "what do you are provide?",
+          "what about your servise?",
+          "what do you sell?",
+          "What Type of services you provide?",
+          "Type of Services?",
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "Services list",
+          "service list"
+        ],
+        "responses": [
+          "Sql connection services..."
+        ]
+      },
+
+      {
+        "tag": "Locations",
+        "patterns": [
+          "Where are you?",
+          "Where can i get your services?",
+          "Your location?",
+          "Tell me your locations?",
+          "Tell me your places?",
+          "your adress?",
+          "service address?",
+          "your location",
+          "Your Location",
+          "Location?"
+        ],
+        "responses": [
+          "SQl connection about locations?"        
+        ]
+      },
+
+      {
+        "tag": "Booking",
+        "patterns": [
+          "May i need to book for appointment?",
+          "May i need to recerve time for checking?",
+          "May i need to book?",
+          "Is there are booking?",
+          "How to recerve?",
+          "May i need to reserve befor come?"
+        ],
+        "responses": [
+          "Yes ofcouse, You need to reserve a date and time for your checking",
+          "Yes you need to book.",
+          "Yaa you need to reserve a time slot for you.",
+          "Yes your need to login to our website and reserve a date & time or You can reserve with contact us."
+        ]
+      },
+
+      {
+        "tag": "ContactUs",
+        "patterns": [
+          "How to contact you?",
+          "Your phone number?",
+          "Your email address?",
+          "Your contact details?",
+          "Can i call you?",
+          "can i email you",
+          "your phonenumber?",
+          "your mail"         
+
+        ],
+        "responses": [
+          "Sql severver connection needed!"    
+        ]
+      },
+
+      {
+        "tag": "AboutUs",
+        "patterns": [
+          "who are you?",
+          "What is your company?",
+          "Tell about your company?",
+          "Tell about you?",
+          "Tell your company details?",
+          "Your details?",
+          "your history?"
+        ],
+        "responses": [
+    
+          " Sql connection..."
+        ]
+      },
+
+      {
+        "tag": "WorkingTime",
+        "patterns": [
+          "Your service time?",
+          "What time your service start?",
+          "Service time?",
+          "Working time?",
+          "How long u provide service i a day?",
+          "Shop opennig time?",
+          "When you free?"
+        ],
+        "responses": [
+          "SQl connection..."
+  
+        ]
+      },
+
+      {
+        "tag": "OurPromises",
+        "patterns": [
+          "Your service Promises?",
+          "Company promises?",
+          "Vision?",
+          "Your company goal?",
+          "Your aim?",
+          "your moto?",
+          "Your motivation?"
+        ],
+        "responses": [
+          "SQl connection..."
+  
+        ]
+      }
+
+    ]
+  }
+  
